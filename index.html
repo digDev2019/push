@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+    <head>
+
+        <link rel="manifest" href="manifest.json">
+
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="PUSH">
+        <meta name="apple-mobile-web-app-title" content="PUSH">
+        <meta name="msapplication-starturl" content="/index.html">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="icon" type="png" sizes="128" href="./ico128.png">
+        <link rel="apple-touch-icon" type="png" sizes="128" href="./ico128.png">
+
+        <meta charset="utf-8">
+        <title>Push message</title>
+    </head>
+    <body>
+        Hello world!<br><br><br>
+        <div class="pushSubscription">
+
+        </div><br><br><br>
+        Заголовок сообщения &nbsp; <input type="text" id="title"></input><br><br>
+        Текс сообщения &nbsp; <input type="text" id="text"> </input><br><br>
+        <button id='send'> Отправить push сообщение </button>
+
+        <script type="text/javascript" src='./script.js'></script>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "Push message",
+  "short_name": "PUSH",
+  "lang": "ru-RU",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "./ico128.png",
+      "sizes": "128",
+      "type": "png"
+  },
+  {
+    "src": "./ico512.png",
+    "sizes": "512",
+    "type": "png"
+  }
+  ]
+}
